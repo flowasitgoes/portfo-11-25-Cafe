@@ -1,0 +1,69 @@
+import { motion } from 'framer-motion';
+import type { Work } from '../../data/works';
+import { ExternalLink } from 'lucide-react';
+
+interface WorkCardProps {
+  work: Work;
+  index: number;
+}
+
+const WorkCard = ({ work, index }: WorkCardProps) => {
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true, margin: '-100px' }}
+      transition={{ duration: 0.6, delay: index * 0.1 }}
+      className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-neon-cyan transition-all duration-300"
+    >
+      <div className="aspect-video bg-gradient-to-br from-neon-cyan/20 to-neon-pink/20 flex items-center justify-center relative overflow-hidden">
+        {work.thumbnail ? (
+          <img
+            src={work.thumbnail}
+            alt={work.title}
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <div className="text-4xl opacity-20">🎨</div>
+        )}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      </div>
+      
+      <div className="p-6">
+        <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-neon-cyan transition-colors">
+          {work.title}
+        </h3>
+        <p className="text-gray-400 mb-4 line-clamp-2">
+          {work.description}
+        </p>
+        
+        <div className="flex flex-wrap gap-2 mb-4">
+          {work.tags.map((tag) => (
+            <span
+              key={tag}
+              className="px-3 py-1 text-xs bg-gray-800 text-gray-300 rounded-full"
+            >
+              {tag}
+            </span>
+          ))}
+        </div>
+        
+        <motion.a
+          href={work.link}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 text-neon-cyan hover:text-neon-pink transition-colors font-semibold"
+          whileHover={{ x: 5 }}
+        >
+          View Project
+          <ExternalLink className="w-4 h-4" />
+        </motion.a>
+      </div>
+      
+      <div className="absolute inset-0 bg-neon-cyan/0 group-hover:bg-neon-cyan/5 transition-colors duration-300 pointer-events-none" />
+    </motion.div>
+  );
+};
+
+export default WorkCard;
+
