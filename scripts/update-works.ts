@@ -40,8 +40,13 @@ async function main() {
   const worksContent = fs.readFileSync(worksPath, 'utf-8');
 
   // 生成新的作品数据
+  // 将 "other" 分类的网站也归类为 "generative"（网页设计类）
   const newWorks = websites
-    .filter(w => w.category !== 'other') // 只包含已分类的
+    .map((website, index) => {
+      // 如果分类为 other，改为 generative（网页设计）
+      const finalCategory = website.category === 'other' ? 'generative' : website.category;
+      return { ...website, category: finalCategory };
+    })
     .map((website, index) => {
       const id = generateId(website.title, index);
       return {

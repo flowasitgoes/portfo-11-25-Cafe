@@ -70,7 +70,11 @@ function categorizeWebsite(url: string, title: string, description: string): {
   // 检查 Generative Art
   else if (generativeKeywords.some(keyword => combined.includes(keyword)) || 
            lowerUrl.includes('game') || lowerUrl.includes('interactive') || 
-           lowerUrl.includes('portfolio') || lowerUrl.includes('showcase')) {
+           lowerUrl.includes('portfolio') || lowerUrl.includes('showcase') ||
+           combined.includes('遊戲') || combined.includes('game') ||
+           combined.includes('設計') || combined.includes('design') ||
+           combined.includes('網站') || combined.includes('website') ||
+           combined.includes('blog') || combined.includes('app')) {
     category = 'generative';
     tags.push('Web Design', 'Interactive', 'Creative');
   }
