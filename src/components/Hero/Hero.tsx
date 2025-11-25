@@ -13,7 +13,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-7xl font-bold mb-6 text-gradient leading-tight"
         >
-          I build creative visual engines
+          打造創意視覺引擎
         </motion.h1>
         
         <motion.p
@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
         >
-          AI image pipelines, generative interfaces, and interactive tools.
+          AI 圖片流程、生成式介面與互動工具
         </motion.p>
         
         <motion.div
@@ -36,11 +36,11 @@ const Hero = () => {
               const worksSection = document.getElementById('works');
               worksSection?.scrollIntoView({ behavior: 'smooth' });
             }}
-            className="px-8 py-4 bg-neon-cyan text-black font-semibold rounded-full hover:bg-neon-pink transition-all duration-300 glow"
+            className="px-8 py-4 bg-[#A3B087] text-[#313647] font-semibold rounded-full hover:bg-[#FFF8D4] transition-all duration-300 glow"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            View Works
+            查看作品
           </motion.button>
           
           <motion.button
@@ -48,11 +48,11 @@ const Hero = () => {
               const aboutSection = document.getElementById('about');
               aboutSection?.scrollIntoView({ behavior: 'smooth' });
             }}
-            className="px-8 py-4 border-2 border-neon-cyan text-neon-cyan font-semibold rounded-full hover:bg-neon-cyan hover:text-black transition-all duration-300"
+            className="px-8 py-4 border-2 border-[#A3B087] text-[#A3B087] font-semibold rounded-full hover:bg-[#A3B087] hover:text-[#313647] transition-all duration-300"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            Learn More
+            了解更多
           </motion.button>
         </motion.div>
       </div>
@@ -66,12 +66,12 @@ const Hero = () => {
         <motion.div
           animate={{ y: [0, 10, 0] }}
           transition={{ duration: 2, repeat: Infinity }}
-          className="w-6 h-10 border-2 border-neon-cyan rounded-full flex items-start justify-center p-2"
+          className="w-6 h-10 border-2 border-[#A3B087] rounded-full flex items-start justify-center p-2"
         >
           <motion.div
             animate={{ y: [0, 12, 0] }}
             transition={{ duration: 2, repeat: Infinity }}
-            className="w-1 h-3 bg-neon-cyan rounded-full"
+            className="w-1 h-3 bg-[#A3B087] rounded-full"
           />
         </motion.div>
       </motion.div>

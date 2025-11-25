@@ -14,9 +14,9 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true, margin: '-100px' }}
       transition={{ duration: 0.6, delay: index * 0.1 }}
-      className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-neon-cyan transition-all duration-300"
+      className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-[#A3B087] transition-all duration-300"
     >
-      <div className="aspect-video bg-gradient-to-br from-neon-cyan/20 to-neon-pink/20 flex items-center justify-center relative overflow-hidden">
+      <div className="aspect-video bg-gradient-to-br from-[#A3B087]/20 to-[#FFF8D4]/20 flex items-center justify-center relative overflow-hidden">
         {work.thumbnail ? (
           <img
             src={work.thumbnail}
@@ -30,7 +30,7 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
       </div>
       
       <div className="p-6">
-        <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-neon-cyan transition-colors">
+        <h3 className="text-2xl font-bold mb-2 text-white group-hover:text-[#A3B087] transition-colors">
           {work.title}
         </h3>
         <p className="text-gray-400 mb-4 line-clamp-2">
@@ -52,15 +52,15 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
           href={work.link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 text-neon-cyan hover:text-neon-pink transition-colors font-semibold"
+          className="inline-flex items-center gap-2 text-[#A3B087] hover:text-[#FFF8D4] transition-colors font-semibold"
           whileHover={{ x: 5 }}
         >
-          View Project
+          查看專案
           <ExternalLink className="w-4 h-4" />
         </motion.a>
       </div>
       
-      <div className="absolute inset-0 bg-neon-cyan/0 group-hover:bg-neon-cyan/5 transition-colors duration-300 pointer-events-none" />
+      <div className="absolute inset-0 bg-[#A3B087]/0 group-hover:bg-[#A3B087]/5 transition-colors duration-300 pointer-events-none" />
     </motion.div>
   );
 };

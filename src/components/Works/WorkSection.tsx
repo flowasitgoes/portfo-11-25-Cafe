@@ -14,7 +14,7 @@ const WorkSection = ({ category, title, description, icon }: WorkSectionProps) =
   const works = getWorksByCategory(category);
 
   return (
-    <section className="py-20 px-6">
+    <section className="py-20 px-6" style={{ background: '#484c56' }}>
       <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 30 }}

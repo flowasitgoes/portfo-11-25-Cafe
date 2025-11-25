@@ -16,8 +16,14 @@ function ParticleField() {
     positions[i * 3 + 2] = (Math.random() - 0.5) * 20;
 
     const color = new THREE.Color();
-    const hue = Math.random() * 0.3 + 0.5; // Cyan to pink range
-    color.setHSL(hue, 1, 0.6);
+    // 使用新配色：淡橄榄绿到淡奶油的渐变
+    const colors = [
+      [163/255, 176/255, 135/255], // #A3B087 淡橄榄绿
+      [255/255, 248/255, 212/255], // #FFF8D4 淡奶油
+      [67/255, 86/255, 99/255],    // #435663 中蓝灰
+    ];
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    color.setRGB(randomColor[0], randomColor[1], randomColor[2]);
     colors[i * 3] = color.r;
     colors[i * 3 + 1] = color.g;
     colors[i * 3 + 2] = color.b;
@@ -73,9 +79,9 @@ function AnimatedGeometry() {
     <mesh ref={meshRef} position={[0, 0, 0]}>
       <icosahedronGeometry args={[1.5, 1]} />
       <meshStandardMaterial
-        color="#00ffff"
+        color="#A3B087"
         wireframe
-        emissive="#00ffff"
+        emissive="#A3B087"
         emissiveIntensity={0.5}
       />
     </mesh>
@@ -96,7 +102,7 @@ function MouseFollower() {
   return (
     <mesh ref={meshRef}>
       <sphereGeometry args={[0.1, 16, 16]} />
-      <meshStandardMaterial color="#ff00ff" emissive="#ff00ff" emissiveIntensity={1} />
+      <meshStandardMaterial color="#FFF8D4" emissive="#FFF8D4" emissiveIntensity={1} />
     </mesh>
   );
 }
@@ -109,8 +115,8 @@ const Scene3D = () => {
         gl={{ antialias: true, alpha: true }}
       >
         <ambientLight intensity={0.5} />
-        <pointLight position={[10, 10, 10]} intensity={1} color="#00ffff" />
-        <pointLight position={[-10, -10, -10]} intensity={1} color="#ff00ff" />
+        <pointLight position={[10, 10, 10]} intensity={1} color="#A3B087" />
+        <pointLight position={[-10, -10, -10]} intensity={1} color="#FFF8D4" />
         
         <ParticleField />
         <AnimatedGeometry />

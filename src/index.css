@@ -3,17 +3,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 @theme {
-  --color-neon-cyan: #00ffff;
-  --color-neon-pink: #ff00ff;
-  --color-neon-green: #00ff00;
-  --color-neon-purple: #9d4edd;
+  /* 主配色方案 - 深色系 */
+  --color-primary-dark: #313647;    /* 深蓝灰 - 主要背景/强调 */
+  --color-primary-medium: #435663; /* 中蓝灰 - 次要背景/边框 */
+  --color-primary-light: #A3B087;  /* 淡橄榄绿 - 主要强调色 */
+  --color-primary-accent: #FFF8D4; /* 淡奶油 - 高亮/文字 */
+  
+  /* 兼容旧名称 */
+  --color-neon-cyan: #A3B087;
+  --color-neon-pink: #FFF8D4;
+  --color-neon-green: #A3B087;
+  --color-neon-purple: #435663;
   
   --font-sans: 'Inter', 'Space Grotesk', system-ui, sans-serif;
 }
 
 @layer base {
   body {
-    @apply bg-black text-white font-sans antialiased;
+    @apply text-white font-sans antialiased;
+    background-color: #313647;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
@@ -21,19 +29,21 @@
   
   html {
     scroll-behavior: smooth;
+    background-color: #313647;
   }
 }
 
 @layer utilities {
   .text-gradient {
-    @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 via-pink-500 to-purple-500;
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(to right, #A3B087, #FFF8D4, #435663);
   }
   
   .glow {
-    box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+    box-shadow: 0 0 20px rgba(163, 176, 135, 0.5);
   }
   
-  .glow-pink {
-    box-shadow: 0 0 20px rgba(255, 0, 255, 0.5);
+  .glow-accent {
+    box-shadow: 0 0 20px rgba(255, 248, 212, 0.5);
   }
 }
