@@ -158,7 +158,7 @@ export const works: Work[] = [
   {
     id: 'quiet-beauty-blog-12',
     category: 'generative',
-    title: 'Quiet Beauty 極簡部落格展示',
+    title: '極簡部落格展示',
     description: '極簡的部落格網站，適合剛起步的內容製作者。小說家，藝術家，日記，雜記，喜愛文青風格之受眾。',
     link: 'https://quiet-beauty.vercel.app/',
     thumbnail: '/screenshots/quiet-beauty-vercel-app-.png',
