@@ -6,7 +6,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6 py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-gradient mb-4">多媒體前端工程師</h3>
+            <h3 className="text-2xl font-bold text-gradient mb-4">NDC Studio</h3>
             <p className="text-gray-400">
               在程式碼、設計與藝術的交匯處，打造視覺引擎。
             </p>
@@ -58,7 +58,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 pt-8 text-center text-gray-500">
-          <p>&copy; {new Date().getFullYear()} 多媒體前端工程師. 版權所有.</p>
+          <p>&copy; {new Date().getFullYear()} NDC Studio. 版權所有.</p>
         </div>
       </div>
     </footer>

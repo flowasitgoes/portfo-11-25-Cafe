@@ -24,7 +24,7 @@ const Home = () => {
         <WorkSection
           category="generative"
           title="品牌網站作品"
-          description="視覺導向開發、前端互動 UI、使用 React、Angular、Ionic 製作的網頁與手機互動體驗"
+          description="視覺導向UI、使用當代網頁技術製作的 Web & Mobile 互動體驗"
           icon="🎨"
         />
         
@@ -41,7 +41,7 @@ const Home = () => {
       <WorkSection
           category="automation"
           title="近期開發中專案"
-          description="創作者工具與自動化工作流程，包含 Node.js 工具、n8n 串接與後端功能"
+          description="創作者工具與自動化流程，結合 Node.js, Python, n8n 串接與 LLM 應用"
           icon="⚙️"
         />
         
