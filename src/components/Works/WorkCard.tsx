@@ -16,8 +16,10 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
       transition={{ duration: 0.6, delay: index * 0.1 }}
       className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-[#A3B087] transition-all duration-300"
     >
+      <div>test</div>
       <div className="aspect-video bg-gradient-to-br from-[#A3B087]/20 to-[#FFF8D4]/20 flex items-center justify-center relative overflow-hidden">
         {work.thumbnail ? (
+          
           <img
             src={work.thumbnail}
             alt={work.title}
