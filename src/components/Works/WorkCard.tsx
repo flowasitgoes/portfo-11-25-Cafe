@@ -6,7 +6,7 @@ interface WorkCardProps {
   work: Work;
   index: number;
 }
-// I like good things YesGood
+// I like good things YesGoodGGGG
 
 const WorkCard = ({ work, index }: WorkCardProps) => {
   return (
