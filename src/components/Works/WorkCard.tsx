@@ -11,23 +11,23 @@ interface WorkCardProps {
 
 const WorkCard = ({ work, index }: WorkCardProps) => {
   const isMobile = useIsMobile();
-  
-  // 移动端使用更微妙的动画：更小的位移，更平滑的淡入
-  const initialY = isMobile ? 15 : 30;
-  const viewportMargin = isMobile ? '50px' : '100px';
-  const animationDuration = isMobile ? 0.5 : 0.6;
-  const animationDelay = isMobile ? index * 0.05 : index * 0.1;
 
   return (
     <motion.div
-      initial={{ opacity: 0, y: initialY }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, margin: viewportMargin, amount: 0.2 }}
-      transition={{ 
-        duration: animationDuration, 
-        delay: animationDelay,
-        ease: [0.25, 0.1, 0.25, 1] // 使用更平滑的缓动函数
-      }}
+      initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 30 }}
+      whileInView={isMobile ? { opacity: 1 } : { opacity: 1, y: 0 }}
+      viewport={isMobile 
+        ? { once: true, margin: '100px', amount: 0.1 }
+        : { once: true, margin: '100px', amount: 0.2 }
+      }
+      transition={isMobile
+        ? { duration: 0.4, ease: [0.4, 0, 0.2, 1] as const }
+        : { 
+            duration: 0.6, 
+            delay: index * 0.1,
+            ease: [0.25, 0.1, 0.25, 1] as const
+          }
+      }
       className="group relative bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-2xl overflow-hidden hover:border-[#A3B087] transition-all duration-300"
     >
       <div className="aspect-video bg-gradient-to-br from-[#A3B087]/20 to-[#FFF8D4]/20 flex items-center justify-center relative overflow-hidden">

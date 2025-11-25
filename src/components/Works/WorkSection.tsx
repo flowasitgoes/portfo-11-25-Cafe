@@ -15,21 +15,23 @@ const WorkSection = ({ category, title, description, icon }: WorkSectionProps) =
   const works = getWorksByCategory(category);
   const isMobile = useIsMobile();
 
-  // 移动端使用更微妙的动画
-  const initialY = isMobile ? 15 : 25;
-  const animationDuration = isMobile ? 0.5 : 0.6;
-
   return (
     <section className="py-20 px-6">
       <div className="max-w-7xl mx-auto">
         <motion.div
-          initial={{ opacity: 0, y: initialY }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: isMobile ? '50px' : '100px', amount: 0.3 }}
-          transition={{ 
-            duration: animationDuration,
-            ease: [0.25, 0.1, 0.25, 1] // 平滑的缓动函数
-          }}
+          initial={isMobile ? { opacity: 0 } : { opacity: 0, y: 25 }}
+          whileInView={isMobile ? { opacity: 1 } : { opacity: 1, y: 0 }}
+          viewport={isMobile
+            ? { once: true, margin: '100px', amount: 0.2 }
+            : { once: true, margin: '100px', amount: 0.3 }
+          }
+          transition={isMobile
+            ? { duration: 0.4, ease: [0.4, 0, 0.2, 1] as const }
+            : { 
+                duration: 0.6,
+                ease: [0.25, 0.1, 0.25, 1] as const
+              }
+          }
           className="text-center mb-12"
         >
           {icon && <div className="text-6xl mb-4">{icon}</div>}
