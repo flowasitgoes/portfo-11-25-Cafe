@@ -39,6 +39,15 @@ export const works: Work[] = [
     tags: ['Automation', 'System', 'Tool', 'Vercel'],
   },
   {
+    id: 'fivon-lipa-youtube-17',
+    category: 'automation',
+    title: 'Automated YouTube Channel',
+    description: 'YouTube 頻道內容創作與自動化流程，展現影片製作與內容管理的自動化工具應用',
+    link: 'https://www.youtube.com/@fivonLipa',
+    thumbnail: '/screenshots/youtube-fivon-lipa.png',
+    tags: ['Automation', 'YouTube', 'Content Creation', 'Video Production'],
+  },
+  {
     id: 'ionic-app-3',
     category: 'generative',
     title: 'Ionic App',
