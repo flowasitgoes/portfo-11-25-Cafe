@@ -23,8 +23,8 @@ dist-ssr
 *.sln
 *.sw?
 
-# Scripts output
+# Scripts output (keep screenshots for deployment)
 src/data/website-info.json
 src/data/works.ts.backup
-public/screenshots/*
-!public/screenshots/.gitkeep
+# Screenshots should be committed for deployment
+# public/screenshots/*

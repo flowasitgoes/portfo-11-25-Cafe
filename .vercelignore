@@ -1,0 +1,17 @@
+# Vercel ignore file
+# Files that should not be deployed
+
+# Development files
+scripts/
+*.backup
+src/data/website-info.json
+
+# Documentation
+SCRIPTS_GUIDE.md
+DEPLOYMENT.md
+scripts/README.md
+
+# Git files
+.git/
+.gitignore
+

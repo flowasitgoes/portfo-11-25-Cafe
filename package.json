@@ -10,7 +10,8 @@
     "preview": "node node_modules/vite/bin/vite.js preview",
     "fetch-websites": "node node_modules/tsx/dist/cli.mjs scripts/fetch-websites.ts",
     "update-works": "node node_modules/tsx/dist/cli.mjs scripts/update-works.ts",
-    "sync-portfolio": "npm run fetch-websites && npm run update-works"
+    "sync-portfolio": "npm run fetch-websites && npm run update-works",
+    "check-deployment": "node node_modules/tsx/dist/cli.mjs scripts/check-deployment.ts"
   },
   "dependencies": {
     "@react-three/drei": "^10.7.7",
