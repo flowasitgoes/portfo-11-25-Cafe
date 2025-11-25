@@ -6,7 +6,7 @@ interface WorkCardProps {
   work: Work;
   index: number;
 }
-// I like good things
+// I like good things Yes
 const WorkCard = ({ work, index }: WorkCardProps) => {
   return (
     <motion.div
