@@ -12,7 +12,7 @@ const Footer = () => {
             </p>
           </div>
           
-          <div>
+          {/* <div>
             <h4 className="text-lg font-semibold mb-4 text-[#A3B087]">快速連結</h4>
             <ul className="flex space-x-4">
               <li>
@@ -26,16 +26,16 @@ const Footer = () => {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
           
           <div>
             <h4 className="text-lg font-semibold mb-4 text-[#A3B087]">聯絡方式</h4>
             <div className="space-y-2">
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:guanjun211@gmail.com"
                 className="block text-gray-400 hover:text-neon-cyan transition-colors"
               >
-                Email
+                Email: guanjun211@gmail.com
               </a>
               {/* <a
                 href="https://github.com"
