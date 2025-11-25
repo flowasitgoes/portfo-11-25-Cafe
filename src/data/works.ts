@@ -96,7 +96,7 @@ export const works: Work[] = [
     id: 'kaomoji-collection--7',
     category: 'games',
     title: 'Kaomoji 顏文字工具',
-    description: '結合日本顏文字和 Emoticon 的貼圖小工具...',
+    description: '卡娃衣呦，和朋友聊一下吧！結合日本顏文字和 Emoticon 的貼圖小工具...',
     link: 'https://v0-recreate-ui-from-screenshot-three-opal-82.vercel.app/',
     thumbnail: '/screenshots/v0-recreate-ui-from-screenshot-three-opal-82-verce.png',
     tags: ['Tool', 'Web App', 'Creative',  'Integration'],
