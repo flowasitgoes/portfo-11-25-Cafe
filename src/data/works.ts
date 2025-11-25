@@ -160,8 +160,8 @@ export const works: Work[] = [
     category: 'generative',
     title: '網頁設計｜客製化網頁設計專家｜超吸睛網站設計《雲端數位》',
     description: '專為上市櫃企業與品牌公司服務，雲端數位網頁設計公司是您指定的御用夥伴。我們專注提供頂尖的網頁設計、網站設計以及 RWD 響應式等客製化服務。結合電商解決方案與專業 SEO 網站優化，協助您的品牌網站呈現出類拔萃的國際級形象。',
-    link: 'https://inspiring-change.vercel.app/',
-    thumbnail: '/screenshots/inspiring-change-vercel-app-.png',
+    link: 'https://porfolio.tj-tech.pro/',
+    thumbnail: '/screenshots/tj-tech.png',
     tags: ['Web Design', 'Interactive', 'Creative', 'Vercel'],
   },
   {
@@ -172,15 +172,6 @@ export const works: Work[] = [
     link: 'https://conflux-portfolio.vercel.app/',
     thumbnail: '/screenshots/conflux-portfolio-vercel-app-.png',
     tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'UI/UX', 'Portfolio'],
-  },
-  {
-    id: '--16',
-    category: 'generative',
-    title: '你最愛的那本作品集',
-    description: 'An innovative team that blends technology with humanity, focusing on future trends, digital content management',
-    link: 'https://conflux-exclusive.vercel.app/',
-    thumbnail: '/screenshots/conflux-exclusive-vercel-app-.png',
-    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'Portfolio'],
   }
 ];
 
