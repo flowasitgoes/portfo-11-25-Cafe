@@ -45,7 +45,7 @@ export const works: Work[] = [
     description: 'Select a level to play',
     link: 'https://longcat-thoughtful-2.vercel.app/',
     thumbnail: '/screenshots/longcat-thoughtful-2-vercel-app-.png',
-    tags: ['Vercel'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel'],
   },
   {
     id: '--4',
@@ -54,7 +54,7 @@ export const works: Work[] = [
     description: '跟著顏色節奏，一起拼出最亮眼的圖案！',
     link: 'https://grid-fill-colors.vercel.app/',
     thumbnail: '/screenshots/grid-fill-colors-vercel-app-.png',
-    tags: ['Vercel'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel'],
   },
   {
     id: 'ionic-app-5',
@@ -63,7 +63,7 @@ export const works: Work[] = [
     description: '* 點擊後請確保聲音已開啟',
     link: 'https://ionic-base-roan.vercel.app/home',
     thumbnail: '/screenshots/ionic-base-roan-vercel-app-home.png',
-    tags: ['Vercel', 'Ionic'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'Ionic'],
   },
   {
     id: '--6',
@@ -72,7 +72,7 @@ export const works: Work[] = [
     description: '高雄靈糧堂官方網站首頁，提供教會最新消息、聚會時間、服務項目、信仰資源等資訊，歡迎您來到主的家。',
     link: 'https://www.bolcckh.org.tw/',
     thumbnail: '/screenshots/www-bolcckh-org-tw-.png',
-    tags: ['Web Development'],
+    tags: ['Web Design', 'Interactive', 'Creative'],
   },
   {
     id: 'kaomoji-collection--7',
@@ -81,7 +81,7 @@ export const works: Work[] = [
     description: 'A beautiful collection of kaomoji with quick copy functionality',
     link: 'https://v0-recreate-ui-from-screenshot-three-opal-82.vercel.app/',
     thumbnail: '/screenshots/v0-recreate-ui-from-screenshot-three-opal-82-verce.png',
-    tags: ['Vercel', 'UI/UX'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'UI/UX'],
   },
   {
     id: 'lissom-8',
@@ -90,7 +90,7 @@ export const works: Work[] = [
     description: '純粹而極致的設計，勾勒出空間的尊貴格調。高品質木材與精湛工藝相結合，每一筆紋理皆訴說著時光的故事。這不只是家具，而是一種生活態度。',
     link: 'https://www.lissomcasa.com/',
     thumbnail: '/screenshots/www-lissomcasa-com-.png',
-    tags: ['Web Development'],
+    tags: ['Web Design', 'Interactive', 'Creative'],
   },
   {
     id: 'one-one-9',
@@ -99,7 +99,7 @@ export const works: Work[] = [
     description: '每一杯奶昔都是調皮的小精靈，帶著獨特風味和趣味，準備驚喜你味蕾。萬萬不僅僅是一個名字，而是一種生活態度。每個細節都灑滿美學追求，從店內設計到產品包裝，每一吋都展現我們對生活的熱愛。',
     link: 'https://www.oneone.global/',
     thumbnail: '/screenshots/www-oneone-global-.png',
-    tags: ['Web Development'],
+    tags: ['Web Design', 'Interactive', 'Creative'],
   },
   {
     id: 'golflink--10',
@@ -108,7 +108,7 @@ export const works: Work[] = [
     description: 'GolfLink 高領資通目前已問市球場線上立即預約 + POS 管理系統，並已成功運行於多個台灣高爾夫球場。運用數位科技與內容，吸引年輕朋友加入這項引人入勝的活動，持續擴增新的消費族群，配合資訊系統的輔助，方能永續發展高爾夫球產業。',
     link: 'https://golflink-go.vercel.app/',
     thumbnail: '/screenshots/golflink-go-vercel-app-.png',
-    tags: ['Vercel'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel'],
   },
   {
     id: 'game-with-friends-11',
@@ -126,7 +126,7 @@ export const works: Work[] = [
     description: 'A blog about quiet beauty',
     link: 'https://quiet-beauty.vercel.app/',
     thumbnail: '/screenshots/quiet-beauty-vercel-app-.png',
-    tags: ['Vercel', 'UI/UX'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'UI/UX'],
   },
   {
     id: 'the-harmony--13',
@@ -135,7 +135,7 @@ export const works: Work[] = [
     description: '100%',
     link: 'https://new-harmony.vercel.app/',
     thumbnail: '/screenshots/new-harmony-vercel-app-.png',
-    tags: ['Vercel'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel'],
   },
   {
     id: '--14',
@@ -144,7 +144,25 @@ export const works: Work[] = [
     description: '專為上市櫃企業與品牌公司服務，雲端數位網頁設計公司是您指定的御用夥伴。我們專注提供頂尖的網頁設計、網站設計以及 RWD 響應式等客製化服務。結合電商解決方案與專業 SEO 網站優化，協助您的品牌網站呈現出類拔萃的國際級形象。',
     link: 'https://inspiring-change.vercel.app/',
     thumbnail: '/screenshots/inspiring-change-vercel-app-.png',
-    tags: ['Vercel'],
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel'],
+  },
+  {
+    id: 'conflux-stuido-15',
+    category: 'generative',
+    title: 'Conflux Stuido',
+    description: 'A digital agency that loves crafting beautiful websites.',
+    link: 'https://conflux-portfolio.vercel.app/',
+    thumbnail: '/screenshots/conflux-portfolio-vercel-app-.png',
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'UI/UX', 'Portfolio'],
+  },
+  {
+    id: '--16',
+    category: 'generative',
+    title: '你最愛的那本作品集',
+    description: 'An innovative team that blends technology with humanity, focusing on future trends, digital content management',
+    link: 'https://conflux-exclusive.vercel.app/',
+    thumbnail: '/screenshots/conflux-exclusive-vercel-app-.png',
+    tags: ['Web Design', 'Interactive', 'Creative', 'Vercel', 'Portfolio'],
   }
 ];
 

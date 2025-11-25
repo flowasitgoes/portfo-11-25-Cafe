@@ -33,6 +33,8 @@ const websites = [
   'https://quiet-beauty.vercel.app/',
   'https://new-harmony.vercel.app/',
   'https://inspiring-change.vercel.app/',
+  'https://conflux-portfolio.vercel.app/',
+  'https://conflux-exclusive.vercel.app/',
 ];
 
 // 关键词分类规则

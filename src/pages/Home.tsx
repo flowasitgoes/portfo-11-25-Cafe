@@ -9,12 +9,14 @@ const Home = () => {
       <Hero />
       
       <section id="works" className="bg-[#313647]">
-        <WorkSection
-          category="ai-engine"
-          title="AI 圖片流程"
-          description="AI 圖片生成與流程自動化，展現 prompt 工程與視覺美學的結合"
-          icon="🤖"
-        />
+        <div style={{ background: '#484c56' }}>
+          <WorkSection
+            category="ai-engine"
+            title="AI 圖片流程"
+            description="AI 圖片生成與流程自動化，展現 prompt 工程與視覺美學的結合"
+            icon="🤖"
+          />
+        </div>
         
         <div className="border-t border-gray-800" />
         

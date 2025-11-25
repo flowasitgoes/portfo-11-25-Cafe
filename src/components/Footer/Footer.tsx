@@ -14,14 +14,14 @@ const Footer = () => {
           
           <div>
             <h4 className="text-lg font-semibold mb-4 text-[#A3B087]">快速連結</h4>
-            <ul className="space-y-2">
+            <ul className="flex space-x-4">
               <li>
-                <a href="#works" className="text-gray-400 hover:text-neon-cyan transition-colors">
+                <a href="#works" className="text-gray-400 hover:text-[#A3B087] transition-colors">
                   作品
                 </a>
               </li>
               <li>
-                <a href="#about" className="text-gray-400 hover:text-neon-cyan transition-colors">
+                <a href="#about" className="text-gray-400 hover:text-[#A3B087] transition-colors">
                   關於
                 </a>
               </li>
