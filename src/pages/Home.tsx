@@ -2,8 +2,17 @@ import { motion } from 'framer-motion';
 import Hero from '../components/Hero/Hero';
 import WorkSection from '../components/Works/WorkSection';
 import Footer from '../components/Footer/Footer';
+import { useIsMobile } from '../hooks/useIsMobile';
 
 const Home = () => {
+  const isMobile = useIsMobile();
+
+  // 移动端使用更微妙的动画参数
+  const titleInitialY = isMobile ? 15 : 25;
+  const textInitialY = isMobile ? 15 : 25;
+  const animationDuration = isMobile ? 0.5 : 0.6;
+  const viewportMargin = isMobile ? '50px' : '100px';
+
   return (
     <main className="relative">
       <Hero />
@@ -50,19 +59,26 @@ const Home = () => {
       <section id="about" className="py-20 px-6 bg-gradient-to-b from-[#313647] to-[#435663]">
         <div className="max-w-4xl mx-auto text-center">
           <motion.h2
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: titleInitialY }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            viewport={{ once: true, margin: viewportMargin, amount: 0.3 }}
+            transition={{ 
+              duration: animationDuration,
+              ease: [0.25, 0.1, 0.25, 1]
+            }}
             className="text-4xl md:text-5xl font-bold mb-6 text-gradient"
           >
             關於我
           </motion.h2>
           <motion.p
-            initial={{ opacity: 0, y: 30 }}
+            initial={{ opacity: 0, y: textInitialY }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.2 }}
+            viewport={{ once: true, margin: viewportMargin, amount: 0.3 }}
+            transition={{ 
+              duration: animationDuration, 
+              delay: isMobile ? 0.1 : 0.2,
+              ease: [0.25, 0.1, 0.25, 1]
+            }}
             className="text-xl text-gray-300 leading-relaxed"
           >
             2 年前端實作經驗，2 年 UI 設計經驗，使用 React 生態系、TypeScript、Tailwind... 等 Web 技術
