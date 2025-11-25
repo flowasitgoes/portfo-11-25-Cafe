@@ -1,4 +1,4 @@
-export type WorkCategory = 'ai-engine' | 'automation' | 'generative';
+export type WorkCategory = 'ai-engine' | 'automation' | 'generative' | 'games';
 
 export type Work = {
   id: string;
@@ -49,8 +49,8 @@ export const works: Work[] = [
   },
   {
     id: 'ionic-app-3',
-    category: 'generative',
-    title: 'Ionic App',
+    category: 'games',
+    title: 'Ionic App 1',
     description: 'Select a level to play',
     link: 'https://longcat-thoughtful-2.vercel.app/',
     thumbnail: '/screenshots/longcat-thoughtful-2-vercel-app-.png',
@@ -58,7 +58,7 @@ export const works: Work[] = [
   },
   {
     id: '--4',
-    category: 'generative',
+    category: 'games',
     title: '網格填色遊戲',
     description: '跟著顏色節奏，一起拼出最亮眼的圖案！',
     link: 'https://grid-fill-colors.vercel.app/',
@@ -67,8 +67,8 @@ export const works: Work[] = [
   },
   {
     id: 'ionic-app-5',
-    category: 'generative',
-    title: 'Ionic App',
+    category: 'games',
+    title: 'Ionic App 2',
     description: '* 點擊後請確保聲音已開啟',
     link: 'https://ionic-base-roan.vercel.app/home',
     thumbnail: '/screenshots/ionic-base-roan-vercel-app-home.png',
@@ -121,7 +121,7 @@ export const works: Work[] = [
   },
   {
     id: 'game-with-friends-11',
-    category: 'generative',
+    category: 'games',
     title: 'Game with friends',
     description: '一個有趣的2048數字方塊遊戲',
     link: 'https://game-with-friends.vercel.app/',

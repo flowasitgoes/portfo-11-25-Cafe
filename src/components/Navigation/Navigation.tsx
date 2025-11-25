@@ -34,7 +34,7 @@ const Navigation = () => {
             whileHover={{ scale: 1.05 }}
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
-            創意科技工程師
+            多媒體前端工程師
           </motion.div>
           
           <div className="hidden md:flex items-center space-x-8">

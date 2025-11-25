@@ -22,7 +22,7 @@ const Home = () => {
         
         <WorkSection
           category="automation"
-          title="視覺自動化工具"
+          title="系統 & 自動化工具"
           description="創作者工具與自動化工作流程，包含 Node.js 工具、n8n 串接與後端功能"
           icon="⚙️"
         />
@@ -31,9 +31,18 @@ const Home = () => {
         
         <WorkSection
           category="generative"
-          title="互動視覺作品"
+          title="品牌網站作品"
           description="視覺導向開發、前端互動 UI、使用 React、Angular、Ionic 製作的網頁與手機互動體驗"
           icon="🎨"
+        />
+        
+        <div className="border-t border-gray-800" />
+        
+        <WorkSection
+          category="games"
+          title="自製遊戲"
+          description="使用 Ionic、Angular 等技術製作的互動小遊戲，展現前端開發與遊戲設計的結合"
+          icon="🎮"
         />
       </section>
       
