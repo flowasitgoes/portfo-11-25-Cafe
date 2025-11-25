@@ -11,7 +11,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-4xl md:text-6xl font-bold mb-6 text-gradient leading-tight"
+          className="text-3xl md:text-5xl font-bold mb-6 text-gradient leading-tight"
         >
           品牌數位行銷整合
         </motion.h1>
@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
         >
-          透過軟體前端技術的應用，為中小企業，執行數位行銷內容的傳播與整合
+          透過軟體前端技術的應用，為中小企業，執行品牌, 數位內容的傳播與網路系統整合
         </motion.p>
         
         <motion.div
