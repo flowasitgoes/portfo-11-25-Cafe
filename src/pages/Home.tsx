@@ -14,7 +14,6 @@ const Home = () => {
             category="ai-engine"
             title="Portfolio"
             description="前端技術應用，結合 Generative AI、流程自動化，展現 prompt 工程與視覺美學的結合"
-            icon="🤖"
           />
         </div>
         
