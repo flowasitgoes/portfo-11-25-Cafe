@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
         >
-          透過軟體前端技術的應用，為中小企業，執行品牌, 數位內容的傳播與網路系統整合
+          透過軟體前端技術的應用，為中小企業，執行品牌的數位內容傳播與網路系統整合
         </motion.p>
         
         <motion.div
