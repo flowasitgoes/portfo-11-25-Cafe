@@ -13,7 +13,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-5xl md:text-7xl font-bold mb-6 text-gradient leading-tight"
         >
-          打造創意視覺引擎
+          品牌數位行銷整合
         </motion.h1>
         
         <motion.p
@@ -22,7 +22,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
         >
-          AI 圖片流程、生成式介面與互動工具
+          透過軟體前端技術，為中小企業，執行數位行銷內容的傳播與串接
         </motion.p>
         
         <motion.div

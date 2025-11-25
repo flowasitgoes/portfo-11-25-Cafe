@@ -12,8 +12,8 @@ const Home = () => {
         <div style={{ background: '#484c56' }}>
           <WorkSection
             category="ai-engine"
-            title="AI 圖片流程"
-            description="AI 圖片生成與流程自動化，展現 prompt 工程與視覺美學的結合"
+            title="Portfolio"
+            description="前端技術應用，結合 Generative AI、流程自動化，展現 prompt 工程與視覺美學的結合"
             icon="🤖"
           />
         </div>
@@ -40,7 +40,7 @@ const Home = () => {
         
         <WorkSection
           category="games"
-          title="自製遊戲"
+          title="遊戲製作"
           description="使用 Ionic、Angular 等技術製作的互動小遊戲，展現前端開發與遊戲設計的結合"
           icon="🎮"
         />

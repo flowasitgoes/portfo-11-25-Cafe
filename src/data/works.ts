@@ -48,6 +48,15 @@ export const works: Work[] = [
     tags: ['Automation', 'YouTube', 'Content Creation', 'Video Production'],
   },
   {
+    id: 'youtube-finder-100m-18',
+    category: 'automation',
+    title: 'YouTube 高點閱影片搜尋器',
+    description: '尋找點閱率超過 1 億的 YouTube 影片，提供搜尋歷史、配額管理與自動化搜尋功能',
+    link: 'https://youtube-finder-100m.vercel.app/',
+    thumbnail: '/screenshots/youtube-finder-100m.png',
+    tags: ['Automation', 'YouTube API', 'Search Tool', 'Vercel', 'System'],
+  },
+  {
     id: 'ionic-app-3',
     category: 'games',
     title: 'Ionic App 1',

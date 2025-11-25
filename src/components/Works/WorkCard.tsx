@@ -42,7 +42,7 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
           {work.tags.map((tag) => (
             <span
               key={tag}
-              className="px-3 py-1 text-xs bg-gray-800 text-gray-300 rounded-full"
+              className="px-3 py-1 text-xs bg-[#3a5e9f] text-white rounded-full"
             >
               {tag}
             </span>
