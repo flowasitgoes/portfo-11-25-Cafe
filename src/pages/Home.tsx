@@ -91,7 +91,7 @@ const Home = () => {
             <br /><br />
             服務企業時主要負責前端界面開發、串接 API、基礎微後端部署、跨裝置版面翻新與實作。
             <br /><br />
-            同時透過大量 Side Projects 累積不同業態的專案開發經驗、AI 圖片批次自動化生成、Node.js Script 工具、企業 AppScript 整合、混音工具、n8n workflow、使用 Angular.js 製作手機互動小遊戲。
+            同時透過大量 Side Projects 累積不同業態的專案開發經驗、AI 圖片批次自動化生成、Node.js Script 工具、企業 AppScript 整合、混音工具、n8n workflow、使用 Angular.js 製作跨平台的手機互動小遊戲。
             <br /><br />
             善於快速迭代( Iteration )，<br />落地建構（ Prototype ）的能力。
           </motion.p>
