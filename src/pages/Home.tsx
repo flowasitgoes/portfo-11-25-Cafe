@@ -32,8 +32,8 @@ const Home = () => {
         
         <WorkSection
           category="games"
-          title="遊戲製作"
-          description="使用Web技術與Ionic等技術製作的互動小遊戲，展現前端開發與遊戲設計的結合"
+          title="動動腦遊戲製作"
+          description="使用網頁前端技術等技術製作的互動遊戲，展現前端開發與遊戲設計的結合"
           icon="🎮"
         />
       </section>
@@ -41,7 +41,7 @@ const Home = () => {
       <WorkSection
           category="automation"
           title="近期開發中專案"
-          description="創作者工具與自動化流程，結合 Node.js, Python, n8n 串接與 LLM 應用"
+          description="系統建置與自動化流程，結合 Node.js, Python, n8n, LLM 等創作者工具"
           icon="⚙️"
         />
         
@@ -67,11 +67,11 @@ const Home = () => {
           >
             具 1.5 年前端實作經驗與 2 年 UI 設計經驗，使用 React 生態系、JavaScript / TypeScript、Tailwind、前端互動 UI、以及 AI API 整合。
             <br /><br />
-            在公司期間主要負責前端界面開發、串接 API、簡單後端功能、跨裝置版面調整與部署。
+            在公司期間主要負責前端界面開發、串接 API、基礎微後端部署、跨裝置版面翻新與實作。
             <br /><br />
-            同時也透過大量 Side Projects 累積了視覺導向開發、AI 圖片流程、自製 Node.js 自動化工具、混音工具、n8n 製圖串接自動流、使用 Angular.js、Ionic 製作手機互動小遊戲。
+            同時也透過大量 Side Projects 累積了視覺導向開發、AI 圖片批次自動化生成、Node.js Script 工具、企業 AppScript 整合、混音工具、n8n workflow、使用 Angular.js 製作手機互動小遊戲。
             <br /><br />
-            我不是把所有框架都「精通」的人，但使用過的工具與廣度很廣，英文閱讀與聽力極佳，具備快速學習與落地建構（prototype）的能力。
+            善於快速迭代( Iteration )，落地建構（ Prototype ）的能力。
           </motion.p>
         </div>
       </section>
