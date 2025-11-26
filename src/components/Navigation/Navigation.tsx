@@ -44,27 +44,8 @@ const Navigation = () => {
             NDC Studio
           </motion.div>
           
-          <div className="hidden md:flex items-center space-x-8">
-            <button
-              onClick={() => scrollToSection('works')}
-              className="text-white hover:text-[#A3B087] transition-colors duration-300"
-            >
-              {t.navigation.works}
-            </button>
-            <button
-              onClick={() => scrollToSection('about')}
-              className="text-white hover:text-[#A3B087] transition-colors duration-300"
-            >
-              {t.navigation.about}
-            </button>
-            <motion.a
-              href="#contact"
-              className="px-6 py-2 border border-[#A3B087] text-[#A3B087] rounded-full hover:bg-[#A3B087] hover:text-[#313647] transition-all duration-300"
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-            >
-              {t.navigation.contact}
-            </motion.a>
+          <div className="flex items-center space-x-4 md:space-x-8">
+            {/* 移动端和桌面端都显示的语言切换按钮 */}
             <motion.button
               onClick={toggleLanguage}
               className="px-4 py-2 text-sm font-semibold text-white hover:text-[#A3B087] transition-colors duration-300 border border-[#A3B087]/30 rounded-full hover:border-[#A3B087]"
@@ -73,6 +54,30 @@ const Navigation = () => {
             >
               {language === 'zh' ? 'EN' : 'CH'}
             </motion.button>
+            
+            {/* 桌面端显示的导航菜单 */}
+            <div className="hidden md:flex items-center space-x-8">
+              <button
+                onClick={() => scrollToSection('works')}
+                className="text-white hover:text-[#A3B087] transition-colors duration-300"
+              >
+                {t.navigation.works}
+              </button>
+              <button
+                onClick={() => scrollToSection('about')}
+                className="text-white hover:text-[#A3B087] transition-colors duration-300"
+              >
+                {t.navigation.about}
+              </button>
+              <motion.a
+                href="#contact"
+                className="px-6 py-2 border border-[#A3B087] text-[#A3B087] rounded-full hover:bg-[#A3B087] hover:text-[#313647] transition-all duration-300"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                {t.navigation.contact}
+              </motion.a>
+            </div>
           </div>
         </div>
       </div>
