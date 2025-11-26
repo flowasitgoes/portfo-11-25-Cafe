@@ -4,6 +4,7 @@ import { translations } from '../types/translations';
 
 interface LanguageContextType {
   language: Language;
+  displayLanguage: Language;
   setLanguage: (lang: Language) => void;
   t: Translations;
 }
@@ -33,11 +34,28 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
     const saved = localStorage.getItem('language') as Language | null;
     return saved && (saved === 'zh' || saved === 'en') ? saved : 'zh';
   });
+  
+  // displayLanguage 用于实际显示的内容，会有延迟以支持淡入淡出动画
+  const [displayLanguage, setDisplayLanguage] = useState<Language>(language);
+  const [isTransitioning, setIsTransitioning] = useState(false);
 
   useEffect(() => {
     // 保存语言偏好到 localStorage
     localStorage.setItem('language', language);
   }, [language]);
+
+  // 当语言改变时，先触发淡出，然后延迟更新显示语言
+  useEffect(() => {
+    if (language !== displayLanguage) {
+      setIsTransitioning(true);
+      // 等待淡出动画完成（300ms）后再切换显示的语言
+      const timer = setTimeout(() => {
+        setDisplayLanguage(language);
+        setIsTransitioning(false);
+      }, 300);
+      return () => clearTimeout(timer);
+    }
+  }, [language, displayLanguage]);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
@@ -45,8 +63,9 @@ export const LanguageProvider = ({ children }: LanguageProviderProps) => {
 
   const value: LanguageContextType = {
     language,
+    displayLanguage,
     setLanguage,
-    t: translations[language],
+    t: translations[displayLanguage],
   };
 
   return (
