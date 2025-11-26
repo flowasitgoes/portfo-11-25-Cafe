@@ -1,8 +1,11 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useLanguage, useTranslation } from '../../contexts/LanguageContext';
 
 const Navigation = () => {
   const [scrolled, setScrolled] = useState(false);
+  const { language, setLanguage } = useLanguage();
+  const t = useTranslation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -17,6 +20,10 @@ const Navigation = () => {
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+  };
+
+  const toggleLanguage = () => {
+    setLanguage(language === 'zh' ? 'en' : 'zh');
   };
 
   return (
@@ -42,13 +49,13 @@ const Navigation = () => {
               onClick={() => scrollToSection('works')}
               className="text-white hover:text-[#A3B087] transition-colors duration-300"
             >
-              作品
+              {t.navigation.works}
             </button>
             <button
               onClick={() => scrollToSection('about')}
               className="text-white hover:text-[#A3B087] transition-colors duration-300"
             >
-              關於
+              {t.navigation.about}
             </button>
             <motion.a
               href="#contact"
@@ -56,8 +63,16 @@ const Navigation = () => {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              聯絡
+              {t.navigation.contact}
             </motion.a>
+            <motion.button
+              onClick={toggleLanguage}
+              className="px-4 py-2 text-sm font-semibold text-white hover:text-[#A3B087] transition-colors duration-300 border border-[#A3B087]/30 rounded-full hover:border-[#A3B087]"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              {language === 'zh' ? 'EN' : 'CH'}
+            </motion.button>
           </div>
         </div>
       </div>

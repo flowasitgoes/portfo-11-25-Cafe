@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import type { Work } from '../../data/works';
 import { ExternalLink } from 'lucide-react';
 import { useIsMobile } from '../../hooks/useIsMobile';
+import { useTranslation } from '../../contexts/LanguageContext';
 
 interface WorkCardProps {
   work: Work;
@@ -11,6 +12,7 @@ interface WorkCardProps {
 
 const WorkCard = ({ work, index }: WorkCardProps) => {
   const isMobile = useIsMobile();
+  const t = useTranslation();
   
   // 移动端：完全禁用动画，使用普通 div
   if (isMobile) {
@@ -56,7 +58,7 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
           className="inline-flex items-center gap-2 text-[#A3B087] hover:text-[#FFF8D4] transition-colors font-semibold"
           whileHover={{ x: 5 }}
         >
-          查看專案
+          {t.works.viewProject}
           <ExternalLink className="w-4 h-4" />
         </motion.a>
       </div>
@@ -119,7 +121,7 @@ const WorkCard = ({ work, index }: WorkCardProps) => {
           className="inline-flex items-center gap-2 text-[#A3B087] hover:text-[#FFF8D4] transition-colors font-semibold"
           whileHover={{ x: 5 }}
         >
-          查看專案
+          {t.works.viewProject}
           <ExternalLink className="w-4 h-4" />
         </motion.a>
       </div>

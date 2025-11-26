@@ -1,7 +1,10 @@
 import { motion } from 'framer-motion';
 import Scene3D from '../Scene3D/Scene3D';
+import { useTranslation } from '../../contexts/LanguageContext';
 
 const Hero = () => {
+  const t = useTranslation();
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       <Scene3D />
@@ -13,7 +16,7 @@ const Hero = () => {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold mb-6 text-gradient leading-tight"
         >
-          品牌數位行銷整合
+          {t.hero.title}
         </motion.h1>
         
         <motion.p
@@ -22,7 +25,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-xl md:text-2xl text-gray-300 mb-8 leading-relaxed"
         >
-          透過軟體前端技術的應用，為中小企業，執行品牌的數位內容傳播與網路系統整合
+          {t.hero.subtitle}
         </motion.p>
         
         <motion.div
@@ -40,7 +43,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            查看作品
+            {t.hero.viewWorks}
           </motion.button>
           
           <motion.button
@@ -52,7 +55,7 @@ const Hero = () => {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            了解更多
+            {t.hero.learnMore}
           </motion.button>
         </motion.div>
       </div>

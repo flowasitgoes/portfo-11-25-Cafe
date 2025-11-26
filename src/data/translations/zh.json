@@ -1,0 +1,114 @@
+{
+  "hero": {
+    "title": "品牌數位行銷整合",
+    "subtitle": "透過軟體前端技術的應用，為中小企業，執行品牌的數位內容傳播與網路系統整合",
+    "viewWorks": "查看作品",
+    "learnMore": "了解更多"
+  },
+  "navigation": {
+    "works": "作品",
+    "about": "關於",
+    "contact": "聯絡"
+  },
+  "works": {
+    "categories": {
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "結合前端技術、Generative AI、流程自動化、提示詞(Prompt)工程的實作"
+      },
+      "brand": {
+        "title": "品牌網站作品",
+        "description": "視覺導向UI、使用當代網頁技術製作的 Web & Mobile 互動體驗"
+      },
+      "games": {
+        "title": "動動腦遊戲製作",
+        "description": "使用網頁前端等等技術製作的互動遊戲，作為客戶網站的延伸為品牌方製作遊戲，建製角色IP，進而行銷推廣產品"
+      },
+      "automation": {
+        "title": "近期開發中專案",
+        "description": "系統建置與自動化流程，結合 Node.js, Python, n8n, LLM 等創作者工具"
+      }
+    },
+    "viewProject": "查看專案",
+    "items": {
+      "--14": {
+        "title": "TJ Technology 堤杰科技",
+        "description": "專為上市櫃企業與品牌公司服務，雲端數位網頁設計公司是您指定的御用夥伴。我們專注提供頂尖的網頁設計、網站設計以及 RWD 響應式等客製化服務。結合電商解決方案與專業 SEO 網站優化，協助您的品牌網站呈現出類拔萃的國際級形象。"
+      },
+      "--6": {
+        "title": "高雄靈糧堂基督教會",
+        "description": "高雄靈糧堂官方網站首頁，提供教會最新消息、聚會時間、服務項目、信仰資源等資訊，歡迎您來到主的家。"
+      },
+      "one-one-9": {
+        "title": "One One 萬萬奶昔",
+        "description": "每一杯奶昔都是調皮的小精靈，帶著獨特風味和趣味，準備驚喜你味蕾。萬萬不僅僅是一個名字，而是一種生活態度。每個細節都灑滿美學追求，從店內設計到產品包裝，每一吋都展現我們對生活的熱愛。"
+      },
+      "lissom-8": {
+        "title": "Lissom 里山家具代理",
+        "description": "純粹而極致的設計，勾勒出空間的尊貴格調。高品質木材與精湛工藝相結合，每一筆紋理皆訴說著時光的故事。這不只是家具，而是一種生活態度。"
+      },
+      "road-bike-racing-bikes-italian-1": {
+        "title": "義大利手工單車品牌展示",
+        "description": "前端製作的執行能力, 響應式設計 動態規劃, 以及UI/UX的精準實作..."
+      },
+      "golflink--10": {
+        "title": "GolfLink - 高領資通",
+        "description": "高領資通藉由客製 CRM + POS 系統，串接北中南多個台灣高爾夫球場。共享行銷受眾，運用數位科技與內容，吸引年輕朋友加入這項引人入勝的活動，持續擴增新的消費族群，配合資訊系統的輔助，方能永續發展高爾夫球產業。"
+      },
+      "-erp--2": {
+        "title": "工廠 ERP 系統",
+        "description": "為百人工廠將傳統紙本紀錄數位化，藉由導入數位工程，提升作業效率，紀錄進銷存。"
+      },
+      "fivon-lipa-youtube-17": {
+        "title": "Automated YouTube Channel",
+        "description": "為中小企業、獨立品牌開發的生成式客製化內容與推播自動化的工具"
+      },
+      "kaomoji-collection--7": {
+        "title": "Kaomoji 顏文字工具",
+        "description": "卡娃衣呦，和朋友聊一下吧！結合日本顏文字和 Emoticon 的貼圖小工具..."
+      },
+      "ionic-app-3": {
+        "title": "長伸貓迷宮益智遊戲",
+        "description": "小貓咪身體變長了！在這個大千世界，找到自身的方式可能不止一種！等你來挖掘..."
+      },
+      "--4": {
+        "title": "網格填色遊戲",
+        "description": "城市的顏色忽然消失了，透過你的智慧為市民們來找回顏色，塗上紅綠燈的秩序，招牌的鑒別度..."
+      },
+      "ionic-app-5": {
+        "title": "吉他星際艦艇迷航",
+        "description": "駕著吉他艦艇遨遊在星際間的射擊遊戲，每次射擊都會產生不同音階，打到水晶和礦石的聲音竟然不一樣..."
+      },
+      "game-with-friends-11": {
+        "title": "邊聽音樂邊玩2048",
+        "description": "結合 Youtube 音樂與動畫串接豐富傳統益智遊戲的應用，休息的時候就想聽個音樂玩一場..."
+      },
+      "the-harmony--13": {
+        "title": "The Harmony 禾沐行銷",
+        "description": "公關公司，策劃活動，完美執行。服務合作對象包括 Toyota, Lexus, Hitachi, etc."
+      },
+      "conflux-stuido-15": {
+        "title": "Wordpress 組件展示",
+        "description": "已開發的穩定版型組建展示，有多個套件可以交互應用，屬於經濟實惠的商品..."
+      },
+      "quiet-beauty-blog-12": {
+        "title": "極簡部落格展示",
+        "description": "極簡的部落格網站，適合剛起步的內容製作者。小說家，藝術家，日記，雜記，喜愛文青風格之受眾。"
+      },
+      "marvelous-conflux-0": {
+        "title": "2025潮流版型選擇",
+        "description": "Conflux Group 2025精選設計集合，包含Studio-Alphonse、OH Architecture、Interior Design等頂尖設計作品。特色包括獨特視覺風格、Lottie動畫、橫向捲動、自訂游標等創新設計元素，適合精品家居、建築設計、室內設計、廣告創意，時尚彩妝，健康保養品等各式各樣產業使用。"
+      }
+    }
+  },
+  "about": {
+    "title": "關於我",
+    "content": "2 年前端實作經驗，2 年 UI 設計經驗，使用 React 生態系、TypeScript、Tailwind... 等 Web 技術\n\n服務企業時主要負責前端界面開發、串接 API、基礎微後端部署、跨裝置版面翻新與實作。\n\n同時透過大量 Side Projects 累積不同業態的專案開發經驗、AI 圖片批次自動化生成、Node.js Script 工具、企業 AppScript 整合、混音工具、n8n workflow、使用 Angular.js 製作跨平台的手機互動小遊戲。\n\n善於快速迭代 ( Iteration )，\n落地建構（ Prototype ）的能力。"
+  },
+  "footer": {
+    "description": "在程式碼、設計與藝術的交匯處，打造視覺引擎。",
+    "contact": "聯絡方式",
+    "copyright": "版權所有."
+  }
+}
+

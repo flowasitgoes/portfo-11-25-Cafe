@@ -3,6 +3,7 @@ import { getWorksByCategory } from '../../data/works';
 import type { WorkCategory } from '../../data/works';
 import WorkCard from './WorkCard';
 import { useIsMobile } from '../../hooks/useIsMobile';
+import { useTranslation } from '../../contexts/LanguageContext';
 
 interface WorkSectionProps {
   category: WorkCategory;
@@ -12,7 +13,8 @@ interface WorkSectionProps {
 }
 
 const WorkSection = ({ category, title, description, icon }: WorkSectionProps) => {
-  const works = getWorksByCategory(category);
+  const t = useTranslation();
+  const works = getWorksByCategory(category, t);
   const isMobile = useIsMobile();
 
   const titleContent = (
