@@ -107,6 +107,13 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     tags: ['Web App', 'Modification', 'Integration', 'Video', 'Music'],
   },
   {
+    id: 'jumping-stairs-16',
+    category: 'games',
+    link: 'https://2nd-game-ionic-bricks-pfme.vercel.app/jumping',
+    thumbnail: '/screenshots/jumping-stairs.png',
+    tags: ['Web App', 'Game', 'Mobile', 'Platformer'],
+  },
+  {
     id: 'the-harmony--13',
     category: 'generative',
     link: 'https://new-harmony.vercel.app/',
