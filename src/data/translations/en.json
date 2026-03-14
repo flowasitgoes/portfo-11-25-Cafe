@@ -1,0 +1,158 @@
+{
+  "hero": {
+    "title": "Branding x Digital Marketing Integration",
+    "subtitle": "Through the application of frontend software technology, we execute brand digital content dissemination and network system integration for small and medium enterprises",
+    "viewWorks": "View Works",
+    "learnMore": "Learn More"
+  },
+  "navigation": {
+    "works": "Works",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "works": {
+    "categories": {
+      "portfolio": {
+        "title": "Portfolio",
+        "description": "Implementation combining frontend technology, Generative AI, process automation, and prompt engineering"
+      },
+      "brand": {
+        "title": "Branding & Website Projects",
+        "description": "Customer-centric UI, creating interactive Web & Mobile experiences using contemporary web technologies"
+      },
+      "games": {
+        "title": "Interactive Game Development",
+        "description": "Interactive games created using frontend web technologies, serving as extensions of client websites to develop games for brands, build character IPs, and promote products through marketing"
+      },
+      "automation": {
+        "title": "Recent Projects in Development",
+        "description": "System construction and automation workflows, combining creator tools like Node.js, Python, n8n, and LLM"
+      }
+    },
+    "viewProject": "View Project",
+    "items": {
+      "--14": {
+        "title": "TJ Technology",
+        "description": "Serving listed companies and brand corporations, we are your designated cloud digital web design partner. We focus on providing top-tier web design, website design, and RWD responsive customization services. Combined with e-commerce solutions and professional SEO website optimization, we help your brand website achieve an outstanding international image."
+      },
+      "--6": {
+        "title": "Kaohsiung Bread of Life Christian Church",
+        "description": "Official website homepage of Kaohsiung Bread of Life Christian Church, providing church news, service times, service items, faith resources, and more. Welcome to the Lord's house."
+      },
+      "one-one-9": {
+        "title": "One One Milkshake",
+        "description": "Each milkshake is a playful little spirit with unique flavors and fun, ready to surprise your taste buds. One One is not just a name, but a lifestyle attitude. Every detail is filled with aesthetic pursuit, from store design to product packaging, every inch reflects our passion for life."
+      },
+      "lissom-8": {
+        "title": "Lissom Furniture Agency",
+        "description": "Pure and exquisite design that outlines the noble style of space. High-quality wood combined with exquisite craftsmanship, every grain tells a story of time. This is not just furniture, but a lifestyle attitude."
+      },
+      "road-bike-racing-bikes-italian-1": {
+        "title": "Italian Handcrafted Bicycle Brand Showcase",
+        "description": "Frontend implementation capabilities, responsive design, dynamic planning, and precise UI/UX execution..."
+      },
+      "golflink--10": {
+        "title": "GolfLink - Golf Information Technology",
+        "description": "GolfLink connects multiple golf courses across Taiwan through custom CRM + POS systems. Sharing marketing audiences, using digital technology and content to attract young people to join this fascinating activity, continuously expanding new consumer groups, and supporting the sustainable development of the golf industry with information systems."
+      },
+      "-erp--2": {
+        "title": "Factory ERP System",
+        "description": "Digitizing traditional paper records for a factory with hundreds of employees, improving operational efficiency and recording inventory through digital engineering."
+      },
+      "fivon-lipa-youtube-17": {
+        "title": "Automated YouTube Channel",
+        "description": "A tool for generating customized content and automated publishing for small and medium enterprises and independent brands"
+      },
+      "kaomoji-collection--7": {
+        "title": "Kaomoji Emoticon Tool",
+        "description": "Hey there, chat with friends! A sticker tool combining Japanese kaomoji and emoticons..."
+      },
+      "ionic-app-3": {
+        "title": "Long Cat Maze Puzzle Game",
+        "description": "The little kitty's body has grown longer! In this vast world, there may be more than one way to find yourself! Waiting for you to discover..."
+      },
+      "--4": {
+        "title": "Grid Color Fill Game",
+        "description": "The city's colors have suddenly disappeared. Use your wisdom to help citizens recover the colors, paint the order of traffic lights, the visibility of signs..."
+      },
+      "ionic-app-5": {
+        "title": "Guitar Spaceship Adventure",
+        "description": "A shooting game where you pilot a guitar spaceship through the stars. Each shot produces different musical notes, and the sounds of hitting crystals and minerals are surprisingly different..."
+      },
+      "game-with-friends-11": {
+        "title": "2048 with Music",
+        "description": "An application that combines YouTube music and animations to enrich the traditional puzzle game. When you want to take a break, just listen to music and play a game..."
+      },
+      "jumping-stairs-16": {
+        "title": "Jumping Stairs Platformer",
+        "description": "A casual endless platformer game where you control a character to ascend by jumping on colorful platforms. Aim for high scores, reach greater heights, and challenge yourself with time-based gameplay."
+      },
+      "ifunlove-main": {
+        "title": "ifunlove — Playful Games, Art & Design from Taiwan",
+        "description": "Small games and gentle tools for everyday moments. No sign-up. No downloads. Just open and play."
+      },
+      "eggcute-ifunlove": {
+        "title": "Egg Cute — Cozy 9-Grid Matching Game",
+        "description": "A cozy 9-grid matching game with cute eggs. Pair them up and enjoy a gentle, healing puzzle—no pressure, just quiet moments of play."
+      },
+      "stall-run-ifunlove": {
+        "title": "2:03 AM — Taiwanese Popcorn Chicken",
+        "description": "A night market in Taiwan. Run through the street at 2 a.m. as travelers line up for fried chicken. Talk to strangers, buy a bag when ready—a small stall run game."
+      },
+      "street-food-ifunlove": {
+        "title": "Street Food with Travelers!",
+        "description": "A cute, abstract little game where you meet 10 travelers from around the world at a night market: Iceland, Mongolia, Bhutan, Madagascar, Paraguay, Slovenia, Namibia, Albania, Greenland, and Bolivia. Taiwan's street food culture brings everyone together."
+      },
+      "jumper-ifunlove": {
+        "title": "Platform Jumper",
+        "description": "Cute, playful UI with musical sounds. No win or lose—just relax. Jump with fun interactions and chords, climb as high as you like or enjoy falling. Endless and stress-free."
+      },
+      "video-digest-ifunlove": {
+        "title": "Video Digest — YouTube to Articles",
+        "description": "Turn YouTube long videos into structured, easy-to-read articles. A blog that turns video content into readable text."
+      },
+      "zodiac-ifunlove": {
+        "title": "12.fun — Interactive Music Visualizer",
+        "description": "Interactive music visualizer and generative art. Twelve zodiac themes—upload your music, choose music, and watch the visuals flow."
+      },
+      "keelung-cook-ifunlove": {
+        "title": "Keelung Cooking Platform",
+        "description": "Learn cooking from Keelung grandmas. Local recipes, local stories, authentic cooking—match with local cook teams!"
+      },
+      "pray-ifunlove": {
+        "title": "Pray for You",
+        "description": "Turn your mood into blessings. Write down your thoughts and feelings; we reframe them from a positive perspective and create a prayer for you through gratitude and calm."
+      },
+      "border-maker-17": {
+        "title": "Border Maker - Pixel Art Pattern Generator",
+        "description": "A creative tool for generating pixel art patterns and borders. Upload your pixel art image, adjust grid dimensions and size, then arrange or fill the grid to create beautiful patterns. Export your creations as images for use in games, designs, or digital art projects."
+      },
+      "the-harmony--13": {
+        "title": "The Harmony Marketing",
+        "description": "Public relations company, event planning, perfect execution. Service partners include Toyota, Lexus, Hitachi, etc."
+      },
+      "conflux-stuido-15": {
+        "title": "WordPress Component Showcase",
+        "description": "Showcase of stable template components with multiple interchangeable modules, an economical product..."
+      },
+      "quiet-beauty-blog-12": {
+        "title": "Minimalist Blog Showcase",
+        "description": "A minimalist blog website suitable for content creators just starting out. Novelists, artists, diaries, journals, audiences who love literary style."
+      },
+      "marvelous-conflux-0": {
+        "title": "2025 Trend Template Selection",
+        "description": "Conflux Group 2025 curated design collection, including top design works from Studio-Alphonse, OH Architecture, Interior Design, and more. Features include unique visual styles, Lottie animations, horizontal scrolling, custom cursors, and other innovative design elements, suitable for luxury home goods, architectural design, interior design, advertising creativity, fashion cosmetics, health and beauty products, and various other industries."
+      }
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "content": "2 years of frontend implementation experience, 2 years of UI design experience, using React ecosystem, TypeScript, Tailwind... and other web technologies\n\nWhen serving enterprises, I mainly focus on frontend interface development, API integration, basic micro-backend deployment, cross-device layout renovation and implementation.\n\nThrough numerous Side Projects, I have accumulated project development experience across different industries, including AI image batch automation generation, Node.js Script tools, enterprise AppScript integration, mixing tools, n8n workflows, and creating cross-platform mobile interactive games using Angular.js.\n\nSkilled in rapid iteration and the ability to build and implement prototypes."
+  },
+  "footer": {
+    "description": "At the intersection of code, design, and art, creating visual engines.",
+    "contact": "Contact",
+    "copyright": "All rights reserved."
+  }
+}
+
