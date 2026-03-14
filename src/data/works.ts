@@ -54,7 +54,7 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     id: 'golflink--10',
     category: 'automation',
     link: 'https://golflink-go.vercel.app/',
-    thumbnail: '/screenshots/golflink-go-vercel-app-.png',
+    thumbnail: '/screenshots/golflink-go-vercel-app-.jpg',
     tags: ['Web Design', 'Interactive', 'Creative'],
   },
   {
@@ -75,15 +75,8 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     id: 'video-digest-ifunlove',
     category: 'automation',
     link: 'https://summary.ifunlove.com/',
-    thumbnail: '/screenshots/summary-ifunlove-com.png',
+    thumbnail: '/screenshots/summary-ifunlove-com.jpg',
     tags: ['Tool', 'YouTube', 'Summary', 'ifunlove'],
-  },
-  {
-    id: 'zodiac-ifunlove',
-    category: 'automation',
-    link: 'https://zodiac.ifunlove.com/',
-    thumbnail: '/screenshots/zodiac-ifunlove-com.png',
-    tags: ['Tool', 'Music Visualizer', 'Generative Art', 'ifunlove'],
   },
   {
     id: 'keelung-cook-ifunlove',
@@ -91,6 +84,13 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     link: 'https://keelung-cook.ifunlove.com/',
     thumbnail: '/screenshots/keelung-cook-ifunlove-com.png',
     tags: ['Platform', 'Cooking', 'Local', 'ifunlove'],
+  },
+  {
+    id: 'zodiac-ifunlove',
+    category: 'automation',
+    link: 'https://zodiac.ifunlove.com/',
+    thumbnail: '/screenshots/zodiac-ifunlove-com.png',
+    tags: ['Tool', 'Music Visualizer', 'Generative Art', 'ifunlove'],
   },
   {
     id: 'pray-ifunlove',
@@ -103,17 +103,16 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     id: 'kaomoji-collection--7',
     category: 'games',
     link: 'https://v0-recreate-ui-from-screenshot-three-opal-82.vercel.app/',
-    thumbnail: '/screenshots/v0-recreate-ui-from-screenshot-three-opal-82-verce.png',
+    thumbnail: '/screenshots/kaomoji.jpg',
     tags: ['Tool', 'Web App', 'Creative',  'Integration'],
   },
-  // 長伸貓迷宮益智遊戲（暫時隱藏）
-  // {
-  //   id: 'ionic-app-3',
-  //   category: 'games',
-  //   link: 'https://longcat-thoughtful-2.vercel.app/',
-  //   thumbnail: '/screenshots/longcat-thoughtful-2-vercel-app-.png',
-  //   tags: ['Web App', 'Game', 'Mobile'],
-  // },
+  {
+    id: 'ionic-app-3',
+    category: 'games',
+    link: 'https://longcat-thoughtful-2.vercel.app/game/level_1773474096852_ic1l72s00',
+    thumbnail: '/screenshots/longcat.jpg',
+    tags: ['Web App', 'Game', 'Mobile'],
+  },
   {
     id: '--4',
     category: 'games',
@@ -165,13 +164,6 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     tags: ['Web App', 'Game', 'Night Market', 'ifunlove'],
   },
   {
-    id: 'street-food-ifunlove',
-    category: 'games',
-    link: 'https://street-food.ifunlove.com/',
-    thumbnail: '/screenshots/street-food-ifunlove-com.png',
-    tags: ['Web App', 'Game', 'Night Market', 'ifunlove'],
-  },
-  {
     id: 'jumper-ifunlove',
     category: 'games',
     link: 'https://jumper.ifunlove.com/home',
@@ -184,6 +176,13 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     link: 'https://border-maker.vercel.app/',
     thumbnail: '/screenshots/Bordermaker.png',
     tags: ['Web App', 'Tool', 'Pixel Art', 'Creative'],
+  },
+  {
+    id: 'street-food-ifunlove',
+    category: 'games',
+    link: 'https://street-food.ifunlove.com/',
+    thumbnail: '/screenshots/street-food-ifunlove-com.png',
+    tags: ['Web App', 'Game', 'Night Market', 'ifunlove'],
   },
   {
     id: 'the-harmony--13',
@@ -210,7 +209,7 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     id: 'marvelous-conflux-0',
     category: 'generative',
     link: 'https://marvelous-conflux.vercel.app/',
-    thumbnail: '/screenshots/marvelous-conflux-vercel-app-.png',
+    thumbnail: '/screenshots/marvelous-conflux-vercel-app-.jpg',
     tags: ['Templates', 'Fashion', 'Trend',  'Future'],
   }
 ];
