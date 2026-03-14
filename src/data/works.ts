@@ -171,18 +171,18 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     tags: ['Web App', 'Game', 'Platformer', 'ifunlove'],
   },
   {
-    id: 'border-maker-17',
-    category: 'games',
-    link: 'https://border-maker.vercel.app/',
-    thumbnail: '/screenshots/Bordermaker.png',
-    tags: ['Web App', 'Tool', 'Pixel Art', 'Creative'],
-  },
-  {
     id: 'street-food-ifunlove',
     category: 'games',
     link: 'https://street-food.ifunlove.com/',
     thumbnail: '/screenshots/street-food-ifunlove-com.png',
     tags: ['Web App', 'Game', 'Night Market', 'ifunlove'],
+  },
+  {
+    id: 'border-maker-17',
+    category: 'games',
+    link: 'https://border-maker.vercel.app/',
+    thumbnail: '/screenshots/Bordermaker.png',
+    tags: ['Web App', 'Tool', 'Pixel Art', 'Creative'],
   },
   {
     id: 'the-harmony--13',
