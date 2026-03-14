@@ -174,7 +174,7 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     id: 'street-food-ifunlove',
     category: 'games',
     link: 'https://street-food.ifunlove.com/',
-    thumbnail: '/screenshots/street-food-ifunlove-com.png',
+    thumbnail: '/screenshots/night-market-traveler.jpg',
     tags: ['Web App', 'Game', 'Night Market', 'ifunlove'],
   },
   {
