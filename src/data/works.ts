@@ -160,7 +160,7 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     id: 'stall-run-ifunlove',
     category: 'games',
     link: 'https://stall-run.ifunlove.com/',
-    thumbnail: '/screenshots/stall-run-ifunlove-com.png',
+    thumbnail: '/screenshots/203am-run.jpg',
     tags: ['Web App', 'Game', 'Night Market', 'ifunlove'],
   },
   {
