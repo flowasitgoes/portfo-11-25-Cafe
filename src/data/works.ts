@@ -25,7 +25,7 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
   {
     id: '--6',
     category: 'generative',
-    link: 'https://www.bolcckh.org.tw/',
+    link: 'https://bolcckh.vercel.app/',
     thumbnail: '/screenshots/www-bolcckh-org-tw-.png',
     tags: ['Web Design', 'Custom Design', 'Official'],
   },
