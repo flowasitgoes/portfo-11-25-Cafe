@@ -43,13 +43,14 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     thumbnail: '/screenshots/www-lissomcasa-com-.png',
     tags: ['Web Design', 'Branding', 'Aesthetic'],
   },
-  {
-    id: 'road-bike-racing-bikes-italian-1',
-    category: 'generative',
-    link: 'https://demo-sartooo.vercel.app/',
-    thumbnail: '/screenshots/demo-sartooo-vercel-app-.png',
-    tags: ['UI/UX Implementation', 'Marketing', 'Prototyping'],
-  },
+  // 義大利手工單車品牌展示（暫時隱藏）
+  // {
+  //   id: 'road-bike-racing-bikes-italian-1',
+  //   category: 'generative',
+  //   link: 'https://demo-sartooo.vercel.app/',
+  //   thumbnail: '/screenshots/demo-sartooo-vercel-app-.png',
+  //   tags: ['UI/UX Implementation', 'Marketing', 'Prototyping'],
+  // },
   {
     id: 'golflink--10',
     category: 'automation',
@@ -98,6 +99,13 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     link: 'https://pray.ifunlove.com/',
     thumbnail: '/screenshots/pray-ifunlove-com.png',
     tags: ['Tool', 'Wellness', 'Prayer', 'ifunlove'],
+  },
+  {
+    id: 'tofu-run',
+    category: 'games',
+    link: 'https://tofu-run.vercel.app/',
+    thumbnail: '/screenshots/tofu-og.jpg',
+    tags: ['Web App', 'Game', 'Interactive', 'ifunlove'],
   },
   {
     id: 'kaomoji-collection--7',
@@ -205,13 +213,14 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
     thumbnail: '/screenshots/quiet-beauty-vercel-app-.png',
     tags: ['Web Design', 'Blog', 'Minimalist',  'Diary', 'Literature'],
   },
-  {
-    id: 'marvelous-conflux-0',
-    category: 'generative',
-    link: 'https://marvelous-conflux.vercel.app/',
-    thumbnail: '/screenshots/marvelous-conflux-vercel-app-.jpg',
-    tags: ['Templates', 'Fashion', 'Trend',  'Future'],
-  }
+  // 2025潮流版型選擇（暫時隱藏）
+  // {
+  //   id: 'marvelous-conflux-0',
+  //   category: 'generative',
+  //   link: 'https://marvelous-conflux.vercel.app/',
+  //   thumbnail: '/screenshots/marvelous-conflux-vercel-app-.jpg',
+  //   tags: ['Templates', 'Fashion', 'Trend',  'Future'],
+  // }
 ];
 
 // 根据翻译获取完整的作品列表
