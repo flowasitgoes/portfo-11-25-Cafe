@@ -103,7 +103,7 @@ const worksBase: Omit<Work, 'title' | 'description'>[] = [
   {
     id: 'tofu-run',
     category: 'games',
-    link: 'https://tofu-run.vercel.app/',
+    link: 'https://tofu-run.ifunlove.com/',
     thumbnail: '/screenshots/tofu-og.jpg',
     tags: ['Web App', 'Game', 'Interactive', 'ifunlove'],
   },
