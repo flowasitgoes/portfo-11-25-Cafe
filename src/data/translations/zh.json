@@ -49,7 +49,7 @@
       },
       "road-bike-racing-bikes-italian-1": {
         "title": "義大利手工單車品牌展示",
-        "description": "前端製作的執行能力, 響應式設計 動態規劃, 以及UI/UX的精準實作..."
+        "description": "以義大利品牌 Sarto 為 UI 研究範本，展示前端拆解、互動重構與品牌網站 Prototype 能力。"
       },
       "golflink--10": {
         "title": "GolfLink - 高領資通",
@@ -144,8 +144,8 @@
         "description": "極簡的部落格網站，適合剛起步的內容製作者。小說家，藝術家，日記，雜記，喜愛文青風格之受眾。"
       },
       "marvelous-conflux-0": {
-        "title": "2025潮流版型選擇",
-        "description": "Conflux Group 2025精選設計集合，包含Studio-Alphonse、OH Architecture、Interior Design等頂尖設計作品。特色包括獨特視覺風格、Lottie動畫、橫向捲動、自訂游標等創新設計元素，適合精品家居、建築設計、室內設計、廣告創意，時尚彩妝，健康保養品等各式各樣產業使用。"
+        "title": "品牌網站拆解展示",
+        "description": "利用自製軟件分析品牌網站的 HTML/CSS 結構，解析 UI 組成與互動效果，重構為可自用前端模組與 Template。"
       }
     }
   },
